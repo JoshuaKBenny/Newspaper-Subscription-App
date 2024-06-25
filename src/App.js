@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from './components/HomePage';
 import AddSubscribers from './components/AddSubscribers';
 import ViewSubscribers from './components/ViewSubscribers';
+import SearchSubscriber from './components/SearchSubscriber';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HomePage/>
       <AddSubscribers/>
       <ViewSubscribers/>
+      <SearchSubscriber/>
     </div>
   );
 }
