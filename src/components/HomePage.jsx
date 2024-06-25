@@ -46,8 +46,8 @@ const HomePage = () => {
 </div>
 
         </div>
-        <div className="col col-12 col-sm-6 col-smd-4 col-lg-4 col-xl-4 col-xxl-4">
-            <button className="btn btn-primary">view more</button>
+        <div className="col col-12 col-sm-12 col-smd-12 col-lg-12 col-xl-12 col-xxl-12">
+            <center><button className="btn btn-primary">view more</button></center>
         </div>
     </div>
 
