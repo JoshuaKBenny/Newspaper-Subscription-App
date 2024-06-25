@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const SearchSubscriber = () => {
+const DeleteSubscribers = () => {
   return (
     <div>
         <Navbar/>
@@ -12,7 +12,7 @@ const SearchSubscriber = () => {
                 <input type="text" className="form-control" />
             </div>
             <div className="col col-12 col-sm-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-               <center> <buttom className="btn btn-success">Search</buttom> </center>
+              <center>  <buttom className="btn btn-danger">Delete</buttom> </center>
             </div>
         </div>
       </div>
@@ -20,4 +20,4 @@ const SearchSubscriber = () => {
   )
 }
 
-export default SearchSubscriber
+export default DeleteSubscribers
